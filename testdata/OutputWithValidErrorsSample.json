@@ -1,0 +1,28 @@
+[{
+	"id": 1,
+	"orderId": 3,
+	"amount": 1.23,
+	"comment": "order payment",
+	"filename": "orders.json",
+	"line": 1,
+	"result": "OK"
+}, {
+	"id": 2,
+	"amount": 1.24,
+	"filename": "orders.json",
+	"line": 2,
+	"result": "class java.lang.String cannot be cast to class java.lang.Long (java.lang.String and java.lang.Long are in module java.base of loader 'bootstrap')"
+}, {
+	"id": 3,
+	"filename": "orders.csv",
+	"line": 1,
+	"result": "For input string: \"\"1\"\""
+}, {
+	"id": 4,
+	"orderId": 2,
+	"amount": 123.0,
+	"comment": "order payment",
+	"filename": "orders.csv",
+	"line": 2,
+	"result": "OK"
+}]
